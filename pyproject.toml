@@ -1,0 +1,36 @@
+[project]
+name = "pixelguard"
+version = "0.1.0"
+description = "Auditoría técnica y detección de duplicados visuales en imágenes de e-commerce"
+readme = "README.md"
+authors = [
+    { name = "Smithetch", email = "j0h4nn.10@gmail.com" }
+]
+requires-python = ">=3.12"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic-settings",
+    "pillow",
+    "numpy",
+    "ImageHash",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "httpx",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/media_auditor"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
