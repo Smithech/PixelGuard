@@ -27,3 +27,11 @@ class QualityResult(BaseModel):
     status: Literal["passed", "warning"]
     metrics: ImageMetrics
     findings: list[Finding] = Field(default_factory=list)
+
+
+class DuplicateComparisonResult(BaseModel):
+    is_duplicate: bool
+    distance: int = Field(ge=0)
+    threshold: int = Field(ge=0)
+    hash_a: str
+    hash_b: str
