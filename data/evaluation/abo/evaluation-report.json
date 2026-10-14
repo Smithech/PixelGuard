@@ -1,0 +1,442 @@
+{
+  "threshold": 8,
+  "example_count": 61,
+  "metrics": {
+    "true_positives": 20,
+    "false_positives": 1,
+    "false_negatives": 0,
+    "true_negatives": 40,
+    "precision": 0.9523809523809523,
+    "recall": 1.0,
+    "f1": 0.975609756097561
+  },
+  "pairs": [
+    {
+      "name": "abo_negative_001",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_002",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_003",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_004",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 22,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_005",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_006",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 18,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_007",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 36,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_008",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 16,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_009",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 32,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_010",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_011",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 34,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_012",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_013",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 24,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_014",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 18,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_015",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_016",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_017",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 20,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_018",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_019",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_020",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_021",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_022",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 32,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_023",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 28,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_024",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_025",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 18,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_026",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_027",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 8,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "abo_negative_028",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 40,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_029",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 32,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_030",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 38,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_031",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_032",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 14,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_033",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 28,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_034",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 34,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_035",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_036",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 28,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_037",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 32,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_038",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 32,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_039",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 40,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_040",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 26,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "abo_negative_041",
+      "expected_duplicate": false,
+      "exact_match": false,
+      "phash_distance": 30,
+      "predicted_duplicate": false
+    },
+    {
+      "name": "controlled_positive_001",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_002",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_003",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_004",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_005",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_006",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 2,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_007",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_008",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_009",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_010",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_011",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_012",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_013",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_014",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_015",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_016",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_017",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_018",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_019",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    },
+    {
+      "name": "controlled_positive_020",
+      "expected_duplicate": true,
+      "exact_match": false,
+      "phash_distance": 0,
+      "predicted_duplicate": true
+    }
+  ]
+}
