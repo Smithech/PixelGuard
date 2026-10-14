@@ -15,6 +15,7 @@ dependencies = [
     "pillow",
     "numpy",
     "ImageHash",
+    "python-multipart>=0.0.32",
 ]
 
 [dependency-groups]
