@@ -1,0 +1,4 @@
+name,image_a,image_b,is_duplicate
+same_file,images/item_a.png,images/item_a.png,true
+recompressed_copy,images/item_a.png,images/item_a_recompressed.jpg,true
+different_products,images/item_a.png,images/item_b.png,false
