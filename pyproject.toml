@@ -14,14 +14,14 @@ dependencies = [
     "pydantic-settings",
     "pillow",
     "numpy",
-    "ImageHash",
+    "imagehash",
     "python-multipart>=0.0.32",
 ]
 
 [dependency-groups]
 dev = [
     "pytest",
-    "httpx",
+    "httpx2",
 ]
 
 [build-system]
