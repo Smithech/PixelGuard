@@ -163,3 +163,18 @@ def test_compare_negative_threshold_returns_422() -> None:
     )
 
     assert response.status_code == 422
+
+
+def test_compare_invalid_second_image_returns_400() -> None:
+    response = client.post(
+        "/v1/compare",
+        files={
+            "file_a": ("first.jpg", make_image(), "image/jpeg"),
+            "file_b": ("broken.jpg", b"not a real image", "image/jpeg"),
+        },
+    )
+
+    assert response.status_code == 400
+    body = response.json()
+    assert body["detail"]["code"] == "INVALID_IMAGE"
+    assert "Traceback" not in response.text
