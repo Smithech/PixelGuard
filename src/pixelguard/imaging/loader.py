@@ -98,9 +98,14 @@ def load_image(
     except ImageInputError:
         raise
     except (
-        UnidentifiedImageError,
         Image.DecompressionBombError,
         Image.DecompressionBombWarning,
+    ) as exc:
+        raise ImageSizeLimitError(
+            "Image exceeds Pillow's safe decoding limits."
+        ) from exc
+    except (
+        UnidentifiedImageError,
         OSError,
         SyntaxError,
         ValueError,

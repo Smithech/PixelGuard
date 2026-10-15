@@ -1,4 +1,5 @@
 from io import BytesIO
+from unittest.mock import patch
 
 import pytest
 from PIL import Image
@@ -111,3 +112,14 @@ def test_result_contains_reproducible_evidence(config):
     assert finding.evidence["minimum_width"] == 800
     assert finding.severity == "warning"
     assert finding.recommendation
+
+
+def test_decompression_bomb_warning_is_classified_as_size_limit(config):
+    with patch(
+        "pixelguard.imaging.loader.Image.open",
+        side_effect=Image.DecompressionBombWarning(
+            "Image is too large"
+        ),
+    ):
+        with pytest.raises(ImageSizeLimitError):
+            load_image(b"valid-looking-input", config)
